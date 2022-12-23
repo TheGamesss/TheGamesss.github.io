@@ -1,19 +1,10 @@
 <html lang="en-us"><head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="icon" type="image/png" href="favicon.png">
     <title>G.A Community - G.A games</title>
-    <style>
-      .emscripten { padding-right: 0; margin-left: auto; margin-right: auto; display: block; }
-      div.emscripten { text-align: center; font-size: 12px; }
-      div.emscripten_border { border: 1px solid black; }
-      /* the canvas *must not* have any border or padding, or mouse coords will be wrong */
-      canvas.emscripten { border: 0px none; }
-      body { background: #FFF; font-family: helvetica, arial, sans-serif; color: #000; }
+    <style>      body { background: #FFF; font-family: helvetica, arial, sans-serif; color: #000; }
       h1, h2 { color: #000; text-align: center; }
-      #fullscreen-btn { margin: 20px; }
-      a { color: #000; }
-    </style>
-  <style type="text/css"></style><style type="text/css" id="tts-styles">[data-tts-block-id].tts-active {background: rgba(206, 225, 255, 0.9) !important;} [data-tts-sentence-id].tts-active {background: rgba(0, 89, 191, 0.7) !important;}</style></head>
+</style>
+  </head>
   <body>
     <h1>G.A Community</h1>
     <h2>a.k.a. G.A games/TheGamesss</h2>
@@ -22,16 +13,16 @@
     
     <br><br>
 
-<div class="emscripten">
-    
-        <button onclick="window.location.href='/syobon.js';">
-      Syobon Action
-    </button>
-      
-      </div>
-    
-    
-    
-  
+<div class="search">
+        <form action="/search/" method="get" name="searchform" id="searchform" style="text-align: center;">
+          <input placeholder="Search TheGamesss..." id="q" name="words" class="text clear hint blur" size="30" type="text">
+          <span class="yui-button yui-push-button default">
+            <span class="first-child">
+              <button type="submit" value="Search">Search</button>
+            </span>
+          </span>
+        </form>
+          </div>
+
 
 </body></html>
